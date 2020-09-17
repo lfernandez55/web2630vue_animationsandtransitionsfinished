@@ -21,7 +21,7 @@
           <div
             class="alert alert-info"
             v-show="show"
-          >This is some Info</div>
+          >This is some Info (alert)</div>
         </transition>
         <transition
           name="slide"
@@ -31,7 +31,7 @@
           <div
             class="alert alert-info"
             v-if="show"
-          >This is some Info</div>
+          >This is some Info (slide effect)</div>
         </transition>
         <transition
           enter-active-class="animated bounce"
@@ -40,7 +40,7 @@
           <div
             class="alert alert-info"
             v-if="show"
-          >This is some Info</div>
+          >This is some Info (bounce)</div>
         </transition>
         <transition
           :name="alertAnimation"
@@ -50,7 +50,7 @@
             class="alert alert-info"
             v-if="show"
             key="info"
-          >This is some Info</div>
+          >This is some Info out in</div>
           <div
             class="alert alert-warning"
             v-else
